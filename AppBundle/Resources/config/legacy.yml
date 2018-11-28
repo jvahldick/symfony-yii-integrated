@@ -1,0 +1,8 @@
+cct_legacy_app:
+    root_dir: %kernel.root_dir%/../yii
+    kernel:
+        id: cct_legacy_app.legacy_kernel.yii
+        options:
+            application: frontend
+            environment: '%kernel.environment%'
+            debug:       '%kernel.debug%'
